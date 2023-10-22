@@ -1,0 +1,16 @@
+- JavaScript is an object-based scripting language which is lightweight and cross-platform.
+-JavaScript is not a compiled language, but it is a translated language.It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites.
+- JavaScript follows the syntax and structure of the C programming language. Thus, it is a structured programming language.
+- It is a case-sensitive language
+
+History
+- Netscape decided to give a similar name to the scripting language as Java's. It led to 'Javascript'. Finally, in May 1995, Marc Andreessen coined the first code of Javascript named 'Mocha'. Later, the marketing team replaced the name with 'LiveScript'. But, due to trademark reasons and certain other reasons, in December 1995, the language was finally renamed to 'JavaScript'. From then, JavaScript came into existence.
+
+Application
+-Client-side validation,
+-Displaying pop-up windows and dialog boxes 
+
+Example
+<script>  
+document.write("Hello JavaScript by JavaScript");  
+</script>  
