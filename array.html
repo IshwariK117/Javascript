@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array operations</title>
+</head>
+<body>
+    
+    <script>
+       var myarr=[1,"hello",[2,3]];
+       document.write(myarr.length);
+
+    //push the "world" word at the end of array
+       myarr.push("world");
+       document.write(myarr);
+
+       //pop the "world" word from the end of array
+       myarr.pop("world");
+       document.write(myarr);
+
+       //remove the first element of an array
+       myarr.shift();
+       document.write(myarr);
+
+        //add the  element to beginning of an array
+        myarr.shift();
+       document.write(myarr);
+
+
+       //used to extract the portion of an array
+       document.write(myarr.slice(1,2));
+
+        //used to add or remove the element from an array
+        myarr.splice(1,1,"hello world"[4,5]);
+       document.write(myarr);
+       
+       
+
+       
+    </script>
+</body>
+</html>
